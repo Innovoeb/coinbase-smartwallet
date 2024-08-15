@@ -1,0 +1,217 @@
+
+  
+
+
+/* 4k */
+@media (max-width: 2560px) {
+  #smart-wallet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    width: 90rem;
+    border: 1px, solid, #f5f5f5;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+
+  #signatures {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 10rem;
+      width: 90rem;
+  }
+
+  #sign-bttns {
+      margin-top: 2rem;
+      /* border: 1px solid #f5f5f5; */
+      width: 24rem;
+      display: flex;
+      justify-content: space-around;
+  }
+}
+
+/* Laptop L */
+@media (max-width: 1440px) {
+  #smart-wallet {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 20rem;
+      width: 60rem;
+      border: 1px, solid, #f5f5f5;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+  }
+
+  #signatures {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 10rem;
+      width: 60rem;
+  }
+
+  #sign-bttns {
+      margin-top: 2rem;
+      /* border: 1px solid #f5f5f5; */
+      width: 18rem;
+      display: flex;
+      justify-content: space-around;
+  }
+
+  
+}
+
+/* Laptop */
+@media (max-width: 1024px) {
+  #smart-wallet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    width: 45rem;
+    border: 1px, solid, #f5f5f5;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+
+  #signatures {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 10rem;
+      width: 45rem;
+  }
+
+  #sign-bttns {
+      margin-top: 2rem;
+      /* border: 1px solid #f5f5f5; */
+      width: 18rem;
+      display: flex;
+      justify-content: space-around;
+  }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  #smart-wallet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    width: 30rem;
+    border: 1px, solid, #f5f5f5;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+
+  #signatures {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 10rem;
+      width: 30rem;
+  }
+
+  #sign-bttns {
+      margin-top: 2rem;
+      /* border: 1px solid #f5f5f5; */
+      width: 18rem;
+      display: flex;
+      justify-content: space-around;
+  }
+}
+
+/* Mobile L */
+@media (max-width: 425px) {
+  #smart-wallet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    width: 20rem;
+    border: 1px, solid, #f5f5f5;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+
+  #signatures {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 10rem;
+      width: 20rem;
+  }
+
+  span {
+    text-align: center;
+  }
+
+  #sign-bttns {
+      margin-top: 2rem;
+      /* border: 1px solid #f5f5f5; */
+      width: 18rem;
+      display: flex;
+      justify-content: space-around;
+  }
+}
+
+/* Mobile M */
+@media (max-width: 375px) {
+  #smart-wallet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    width: 10rem;
+    border: 1px, solid, purple;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+
+  #signatures {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    width: 10rem;
+  }
+
+  span {
+    text-align: center;
+    font-size: small;
+  }
+
+  #sign-bttns {
+    margin-top: 2rem;
+    /* border: 1px solid #f5f5f5; */
+    width: 18rem;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+/* Mobile S */
+@media (max-width: 320px) {
+  
+}
