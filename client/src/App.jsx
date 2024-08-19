@@ -44,7 +44,7 @@ const App = () => {
 
   const onSignMessage = async () => {
       const signer = await provider.getSigner()
-      const signature = await signer.signMessage('Hey Bitch Whats Happenin!')
+      const signature = await signer.signMessage('Foobar')
       console.log(signature)
       setSignature(signature)
   }
@@ -52,7 +52,7 @@ const App = () => {
   const verify = async () => {
       const isValidSig = await verifyMessage({
           signer: address,
-          message: 'Hey Bitch Whats Happenin!',
+          message: 'Foobar',
           signature: signature,
           // this is needed so that smart contract signatures can be verified
           provider,
