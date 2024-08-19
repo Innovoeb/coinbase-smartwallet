@@ -23,7 +23,7 @@ Requirements:
 
 (2) Download client dependencies
 
-`cd client && npm i`
+`cd coinbase-smartwallet && cd client && npm i`
 
 (3) Run app
 
