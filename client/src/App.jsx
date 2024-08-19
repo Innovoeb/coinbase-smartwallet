@@ -42,7 +42,7 @@ const App = () => {
       }
   }
 
-  const onSignMessage = async () => {
+  const sign = async () => {
       const signer = await provider.getSigner()
       const signature = await signer.signMessage('Foobar')
       console.log(signature)
@@ -85,7 +85,7 @@ const App = () => {
           <div id="signatures">
               <span>address: {address}</span>
               <div id="sign-bttns">
-                  <button onClick={onSignMessage}>Sign</button>
+                  <button onClick={sign}>Sign</button>
                   <button onClick={verify}>Verify</button>
               </div>
           </div> 
