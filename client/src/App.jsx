@@ -16,7 +16,6 @@ const smartAccount = sdk.makeWeb3Provider({
 
 const App = () => {
   const [provider, setProvider] = useState(null)
-  const [smartAccountExists, setSmartAccountExists] = useState(false)
   const [address, setAddress] = useState('')
   const [signature, setSignature] = useState('')
   let content
@@ -30,7 +29,6 @@ const App = () => {
         })
         if (address.length > 0) {
           setAddress(address)
-          setSmartAccountExists(true)
           setProvider(new ethers.BrowserProvider(smartAccount))
         }
         return address
@@ -63,7 +61,7 @@ const App = () => {
   }
 
   // conditionally render
-  if (smartAccountExists == false) {
+  if (address == '') {
       content = <>
           <div id ="smart-wallet">
               <button onClick={async () => {
@@ -81,7 +79,6 @@ const App = () => {
           <div id="smart-wallet">
               <button onClick={() => {
                   smartAccount.disconnect()
-                  setSmartAccountExists(false)
                   setAddress('')
               }}>Reset</button>
           </div>
@@ -100,7 +97,6 @@ const App = () => {
   useEffect(() => {
       const init = async () => {
           if (smartAccount.accounts > 0) {
-              setSmartAccountExists(true)
               setAddress(smartAccount.accounts[0])
               setProvider(new ethers.BrowserProvider(smartAccount))
           }
