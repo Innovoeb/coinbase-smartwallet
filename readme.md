@@ -18,8 +18,9 @@ Requirements:
 - Git
 
 (1) Clone repo locally
+foobar
 
-`git clone git@github.com:Innovoeb/coinbase-smartwallet.git`
+`git clone https://github.com/Innovoeb/coinbase-smartwallet.git`
 
 (2) Download client dependencies
 
